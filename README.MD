@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/assets/Post%20Reacting.png)
+![](./Assets/Music%20Festival%202023.png)
 
 ### Built with
 
