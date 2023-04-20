@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./Assets/goMusic-logos.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/f590a0f405.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Music Festival 2023</title>
+  </head>
+  <body>
+    <section class="intro">
+      <header>
+        <div id="image-holder">
+          <img src="./Assets/goMusic-logos.png" alt="logo" />
+        </div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      <div id="image-slider">
+        <img src="./Assets/slide1.png" alt="slide image" />
+      </div>
+      <div id="image-arrows">
+        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+        <i class="fa-sharp fa-solid fa-arrow-left"></i>
+      </div>
+      <div id="image-pointers">
+        <i class="fa-solid fa-circle" data-index="0"></i>
+        <i class="fa-regular fa-circle" data-index="1"></i>
+        <i class="fa-regular fa-circle" data-index="2"></i>
+      </div>
+      <h1>Music Festival</h1>
+      <span>2023</span>
+    </section>
+    <section class="container section-1" id="pricing">
+      <h2 class="main-title">Get your ticket now!</h2>
+      <div class="grid-item price-boxes">
+        <div class="box">
+          <h3>Sliver ticket</h3>
+          <span>5 concerts</span>
+          <span>30 €</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum
+            ullam est autem praesentium placeat eos beatae aut rerum ad?
+          </p>
+          <button>Buy now</button>
+        </div>
+        <div class="box">
+          <h3>Gold ticket</h3>
+          <span>Unlimated</span>
+          <span>60 €</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum
+            ullam est autem praesentium placeat eos beatae aut rerum ad?
+          </p>
+          <button>Buy now</button>
+        </div>
+        <div class="box">
+          <h3>Iron ticket</h3>
+          <span>3 concerts</span>
+          <span>20 €</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum
+            ullam est autem praesentium placeat eos beatae aut rerum ad?
+          </p>
+          <button>Buy now</button>
+        </div>
+      </div>
+    </section>
+    <section class="container section-2" id="about">
+      <h2 class="main-title">Our story</h2>
+      <div class="grid-item">
+        <div>
+          <img src="./Assets/story.jpeg" alt="our story" />
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            delectus, hic optio provident itaque temporibus modi omnis inventore
+            iure expedita repellat dolorum aperiam! Ex soluta possimus
+            asperiores sunt illum ab unde quasi doloribus? Pariatur maxime
+            itaque eveniet nulla expedita hic necessitatibus molestiae
+            exercitationem a, sit facilis iste ut alias vitae!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container section-3">
+      <h2 class="main-title">What our customers say</h2>
+      <div class="grid-item reviews-boxes">
+        <div class="review-box">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
+            dolores explicabo adipisci cumque vel sequi? Fugiat iure a error
+            voluptate?
+          </p>
+          <div>
+            <img src="./Assets/avatar1.png" alt="avatar" />
+            <span>Avery Williams</span>
+          </div>
+          <img src="./Assets/wave.svg" alt="wave pattren" />
+        </div>
+        <div class="review-box">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
+            dolores explicabo adipisci cumque vel sequi? Fugiat iure a error
+            voluptate?
+          </p>
+          <div>
+            <img src="./Assets/avatar3.png" alt="avatar" />
+            <span>Ethan James </span>
+          </div>
+          <img src="./Assets/wave.svg" alt="wave pattren" />
+        </div>
+        <div class="review-box">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
+            dolores explicabo adipisci cumque vel sequi? Fugiat iure a error
+            voluptate?
+          </p>
+          <div>
+            <img src="./Assets/avatar2.png" alt="avatar" />
+            <span>Lila Rose </span>
+          </div>
+          <img src="./Assets/wave.svg" alt="wave pattren" />
+        </div>
+      </div>
+    </section>
+    <section class="container section-4">
+      <h2 class="main-title">Sigin to our newspaper</h2>
+      <div>
+        <input type="text" placeholder="Your Email..." />
+        <button>Send</button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          aliquid.
+        </p>
+      </div>
+    </section>
+    <section class="container section-5" id="contact">
+      <h2 class="main-title">Get in touch</h2>
+      <div>
+        <form method="post">
+          <div>
+            <span id="error"></span>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="email" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="your message..."></textarea>
+          </div>
+          <div>
+            <button id="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <img src="./Assets/goMusic-logos.png" alt="logo" />
+      </div>
+      <div class="social-icons">
+        <i class="fa-brands fa-facebook"> </i>
+        <i class="fa-brands fa-twitter"> </i>
+        <i class="fa-brands fa-instagram"> </i>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p>© 2022 Abdulrazzak Alsssouki, All Right Reserved</p>
+    </footer>
+    <button id="sticky-link"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
